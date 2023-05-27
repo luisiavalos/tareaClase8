@@ -1,0 +1,100 @@
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(234, 248, 112);
+    border: 8px solid rgb(129, 17, 17);
+    border-radius: 2rem; 
+    
+}
+
+
+.MENU nav ul li{
+background-color:  rgb(234, 248, 112);
+color: coral;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+margin: 1em;
+}
+
+/*body{
+    background-color: rgb(234, 248, 112);
+} */
+.TítuloMain h1{
+    font-size: 40px;
+    margin: 2em;
+    padding: 0em;
+}
+
+.TítuloMain{
+    display: flex;
+    padding: 20px;
+    height: 100px;
+    align-items: center;
+}
+.MENU nav ul{
+    display: flex;
+    padding: 1px;
+    
+}
+.presentación h2{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextoDescriptivo{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.foto-de-fondo{
+    background-image: url("../Imágenes/PanalDeFondo.jpg");
+    background-attachment: fixed;
+}
+
+.formulario{
+    width: fit-content;
+    background-color: rgb(234, 248, 112);
+    border: 8px solid  rgb(129, 17, 17);
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+.días{
+    color: rgba(113, 10, 209, 0.938);
+    background-color:rgb(234, 248, 112);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.datosUtiles{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: rgb(234, 248, 112);
+    border:  8px solid  rgb(129, 17, 17);
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.dato{
+display: flex;
+}
+.datoImage{
+    margin: 10px;
+}
+
+.horarios{
+    color: rgb(113, 10, 209, 0.938);
+    background-color: rgb(234, 248, 112);
+}
+
+    
+.pieDePagina{
+    display: flex;
+    width: 100%;
+   height: 80px;
+   padding: 1%;
+    background-color: rgb(234, 248, 112);
+    align-items: center;
+    border: 8px solid  rgb(129, 17, 17);
+    border-radius: 1rem;
+
+}
